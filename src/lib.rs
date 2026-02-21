@@ -137,7 +137,7 @@ impl SkinnedAabbAsset {
 }
 
 // TODO: Is this name misleading? Could be interpreted as the actual AABB.
-#[derive(Component, Debug, Default)]
+#[derive(Component, Debug)]
 pub struct SkinnedAabb {
     pub asset: Handle<SkinnedAabbAsset>,
 }
